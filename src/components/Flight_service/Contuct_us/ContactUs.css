@@ -1,0 +1,95 @@
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #4c3c91;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    height: 615px;
+  }
+  
+  .contact-info {
+    flex: 1;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 150px;
+    margin-top: 100px;
+  }
+  
+  .contact-info h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    /* margin-left: 250px; */
+  }
+  
+  .contact-info p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    /* margin-left: 250px; */
+  }
+  
+  .contact-details {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  .contact-form-head1{
+    margin: 10px 0px 0px 0px;
+  }
+  .contact-form-head2
+   {
+    margin: 10px 0px;
+  }
+  
+  .contact-form {
+    flex: 2;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    color: #333;
+    max-width: 500px; 
+    max-height: 450px;
+    /* margin-top: 60px; */
+    /* margin-right: 60px; */
+    margin: 60px 120px 0px 0px;
+  }
+  
+  .contact-form h3 {
+    font-size: 1.5rem;
+    /* margin-bottom: 20px; */
+  }
+  
+  .form-group {
+    display: flex;
+    gap: 10px; /* Reduced gap between inputs */
+    margin-bottom: 15px; /* Reduced margin */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  }
+  
+  .form-group input,
+.form-group textarea {
+  flex: 1;
+  padding: 8px; /* Reduced padding */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.9rem; /* Reduced font size */
+}
+  
+  textarea {
+    resize: none;
+  }
+  
+  button {
+    padding: 12px 20px;
+    background-color: #4c3c91;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #3a2e75;
+  }
+  

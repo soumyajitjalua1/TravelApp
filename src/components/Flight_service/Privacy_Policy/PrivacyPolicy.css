@@ -1,0 +1,97 @@
+/* General Styling */
+.privacy-policy-page {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 20px;
+  }
+  .privacy-policy-contents li{
+    padding: 10px 2px;
+  }
+  
+  /* Header Styling */
+  .privacy-header {
+    background-color: #0073b1; /* Blue color matching LinkedIn style */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .privacy-header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  .privacy-header p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .privacy-header a {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  /* Content Styling */
+  .privacy-content {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  /* Table of Contents Styling */
+  .table-of-contents {
+    width: 20%;
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .table-of-contents h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .table-of-contents ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .table-of-contents ul li {
+    margin-bottom: 5px;
+  }
+  
+  .table-of-contents ul li a {
+    text-decoration: none;
+    color: #0073b1;
+    font-weight: bold;
+  }
+  
+  /* Privacy Details Styling */
+  .privacy-details {
+    width: 75%;
+  }
+
+  .data-collection-li li{
+    padding: 10px 2px;
+  }
+  .we-use-your-data li{
+    padding: 5px 3px;
+  }
+  .share-information li{
+    padding: 10px 2px;
+  }
+  .choices-obligations li{
+    padding: 10px 2px;
+  }
+  
+  .privacy-details h2 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .privacy-details p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  

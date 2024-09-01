@@ -1,0 +1,190 @@
+/* Container */
+.flight-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    /* background-image: url(); */
+  }
+  
+  /* Header */
+  .flight-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    /* background-color: rgb(234, 237, 239); */
+    /* margin-bottom: 6px; */
+    align-items: center;
+    background-color: #494646;
+  }
+  
+  .flight-logo {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 19px;
+    height:50px;
+    padding-top: 16px;
+    color: white;
+  }
+  
+  
+  .flight-nav {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
+  .flight-navigation{
+    display: flex;
+    gap: 27px;
+    text-align: center;
+    align-items: center;
+  }
+  .flight-nav a{
+    padding: 0px 20px;
+    color: white;
+  }
+  
+  .flight-nav-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 17px;
+  }
+  
+  .flight-get-started-button {
+    background-color: #ff6900;
+    color: white;
+    padding: 9px 18px;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+    height: 50px;
+    margin-right: 10px;
+    font-size: 15px;
+    }
+    .flight-search {
+      position: relative;
+      width: 100%;
+      max-width: 400px;
+  }
+  
+  .flight-search-input {
+      width: 88%;
+      padding: 9px 33px 10px 10px; 
+      border: 1px solid #ccc;
+      border-radius: 32px;
+  }
+  
+  .flight-search-icon {
+      position: absolute;
+      top: 50%;
+      right: 10px; 
+      transform: translateY(-50%);
+      fill: #999; 
+      cursor: pointer; 
+      z-index: 1;
+  }
+
+  
+  /* Hero Section */
+  .flight-hero-section {
+    display: flex;
+    padding: 50px;
+    background-color: #e5f9e0;
+    position: relative;
+    background-image: url("./../Airplane-is-flying-away-from-a-runway-picture-image-transformed.png");
+    /* width: 100%; */
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 1440px;
+  }
+  
+  .flight-hero-text {
+    flex: 1;
+    padding: 18px;
+  }
+  
+  .flight-hero-text h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  .flight-hero-text p {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  /* .flight-hero-image {
+    flex: 1;
+  } */
+  
+  .flight-hero-image img {
+    max-width: 100%;
+  }
+  
+  /* Booking Section */
+  .flight-booking-section {
+    position: absolute;
+    bottom: 90px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .flight-booking-section input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .flight-book-now-button {
+    background-color: #ff6900;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Info Section */
+  .flight-info-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+  }
+  
+  .flight-info-box {
+    text-align: center;
+  }
+  
+  .flight-info-icon {
+    font-size: 40px;
+  }
+  
+  .flight-info-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .flight-info-details {
+    font-size: 14px;
+    color: #ff6900;
+  }
+
+  .flight-icon1{
+    height: 90px;
+  }
+  .flight-icon2 {
+    height: 90px;
+  }
+  .flight-icon3{
+    height: 90px;
+  }
+  .flight-icon4{
+    height: 90px;
+  }
+  .flight-icon5{
+    height: 90px;
+  }
+  

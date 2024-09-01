@@ -1,0 +1,49 @@
+.visual-travel-guide {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+  }
+  
+  .visual-travel-guide h2 {
+    margin-bottom: 20px;
+    color: #0056b3;
+    font-size: 30px;
+  }
+  
+  .travel-items {
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+  }
+  
+  .travel-item {
+    position: relative;
+    /* width: 212px; */
+    /* border-radius: 8px; */
+    overflow: hidden;
+  }
+  
+  .travel-item img {
+    width: 100%;
+    height: 205px;
+    border-radius: 17px;
+    transition: transform 0.3s;
+  }
+  
+  .travel-item:hover img {
+    transform: scale(1.05);
+  }
+  
+  .caption {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 48px;
+  }
+  

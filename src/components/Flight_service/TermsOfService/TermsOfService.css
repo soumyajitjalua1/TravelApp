@@ -1,0 +1,93 @@
+/* General Styling */
+.terms-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #F0E5FF;
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .terms-header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #6C63FF; /* Light purple color */
+  }
+  
+  .terms-content {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .terms-sidebar {
+    width: 30%;
+    padding-right: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .terms-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .terms-sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .terms-sidebar a {
+    text-decoration: none;
+    color: #6C63FF;
+    font-size: 14px;
+  }
+  
+  .terms-sidebar a:hover {
+    text-decoration: underline;
+  }
+  
+  .terms-text {
+    width: 70%;
+    padding-left: 20px;
+    overflow-y: auto;
+    max-height: 400px;
+  }
+  
+  .terms-text h3 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .terms-text p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  /* Action Buttons Styling */
+  .terms-actions {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .decline-button, .accept-button {
+    background-color: #fff;
+    border: 2px solid #6C63FF;
+    color: #6C63FF;
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .accept-button {
+    background-color: #6C63FF;
+    color: #fff;
+  }
+  
+  .decline-button:hover, .accept-button:hover {
+    opacity: 0.8;
+  }
+  

@@ -1,0 +1,46 @@
+.growth-partners {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.growth-partners h3 {
+    font-size: 34px;
+    color: #3a3a3a;
+    margin-bottom: 30px;
+}
+
+.partner-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 95px;
+}
+
+.partner-logos img {
+    background-color: transparent;
+    max-width: 130px;
+    max-height: 90px;
+    border-radius: 8px;
+    object-fit: contain;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.partner-logos img:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .partner-logos {
+        gap: 20px;
+    }
+
+    .partner-logos img {
+        max-width: 100px;
+        max-height: 60px;
+    }
+}

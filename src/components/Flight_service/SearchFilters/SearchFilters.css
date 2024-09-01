@@ -1,0 +1,74 @@
+/* SearchFilters.css */
+
+.flight-filters-container {
+    flex-basis: 20%;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+  }
+  
+  .flight-filters-container h3 {
+    font-size: 16px;
+    color: #1e3c72;
+    margin-bottom: 15px;
+  }
+  
+  .flight-filter-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .flight-filter-option input {
+    margin-right: 10px;
+  }
+  
+  .flight-filter-option label {
+    flex: 1;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .flight-filter-option span {
+    font-size: 14px;
+    color: #1e3c72;
+  }
+  
+  .flight-price-range {
+    width: 100%;
+    margin: 15px 0;
+  }
+  
+  .flight-clear-filters {
+    text-align: right;
+    color: #ff6f61;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  /* FlightCard.css or the relevant CSS file */
+.price-filter-container {
+  margin: 20px 0;
+}
+
+.flight-price-range {
+  width: 100%; /* Adjust width as needed */
+  margin-top: 10px;
+}
+
+.flight-clear-filters {
+  margin-top: 10px;
+  color: #ff6f61;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.price-filter-container p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+  

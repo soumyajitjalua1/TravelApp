@@ -1,0 +1,45 @@
+.signOut-heading{
+    text-align: center;
+    padding: 50px;
+    background-image: url('https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?cs=srgb&dl=pexels-pixabay-206359.jpg&fm=jpg');
+    height: 900px;
+    width: 100%;  
+    max-width: 1419px; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white;
+    margin: 0 auto; 
+}
+.signOut-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 100px;
+    text-align: center;
+}
+.signOut-p{
+    font-size: 20px;
+    text-align: center;
+}
+.againSignin-link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from the button */
+  }
+  
+  .againSignin {
+    background-color: #d6d6d6; /* Set background color for the button */
+    color: #242424; /* Set text color for the button */
+    padding: 12px 23px;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 18px;
+  }
+  
+  .againSignin-link:hover {
+    text-decoration: none; /* Ensure no underline on hover */
+    color: inherit; /* Ensure color remains the same on hover */
+  }
+  

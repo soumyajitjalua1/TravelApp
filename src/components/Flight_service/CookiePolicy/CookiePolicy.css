@@ -1,0 +1,159 @@
+/* General Styling */
+.cookie-policy {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  /* Banner Styling */
+  .cookie-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .cookie-banner p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .agree-button, .settings-button {
+    background-color: #FF007F; /* Pink color */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .settings-button {
+    background-color: #fff;
+    color: #FF007F;
+    border: 1px solid #FF007F;
+  }
+  
+  .agree-button:hover, .settings-button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Settings Styling */
+  .cookie-settings {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    position: fixed;
+    bottom: 20%;
+    left: 20%;
+    right: 20%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .settings-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .settings-header h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .settings-content {
+    margin-top: 20px;
+  }
+  
+  .cookie-option {
+    margin-bottom: 20px;
+  }
+  
+  .cookie-option h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .cookie-option p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .cookie-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .enable-all, .save-settings {
+    background-color: #FF007F;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .enable-all:hover, .save-settings:hover {
+    opacity: 0.8;
+  }
+  
+  /* Toggle Switch Styling */
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 20px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 20px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #FF007F;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(14px);
+  }
+  

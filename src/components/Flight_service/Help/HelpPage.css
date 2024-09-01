@@ -1,0 +1,79 @@
+/* General Page Styling */
+.help-page {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  /* Header Styling */
+  .help-header {
+    background-image: url('https://e0.pxfuel.com/wallpapers/545/924/desktop-wallpaper-planet-surreal-background-dope-nature-1400x1050.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 200px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .help-header-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .search-input {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    background-color: #3949ab;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    font-size: 16px;
+  }
+  
+  /* Help Categories Section Styling */
+  .help-categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .category {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+  }
+  
+  .category h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .category p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .category a {
+    color: #536DFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  

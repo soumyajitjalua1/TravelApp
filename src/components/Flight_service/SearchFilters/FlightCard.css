@@ -1,0 +1,86 @@
+/* FlightCard.css */
+
+.flight-flight-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    height: 60px;
+    width: 1062px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flight-flight-info {
+    flex: 1;
+    display: flex;
+    margin-left: 7px;
+    gap: 5px;
+  }
+  .flight-flight-info img{
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 7px;
+  }
+  
+  .flight-flight-info h5 {
+    margin: 0;
+    font-size: 16px;
+    color: #1e3c72;
+  }
+  
+  .flight-flight-info p {
+    margin: 0;
+    font-size: 15px;
+    color: #1f1f1f;
+  }
+  
+  .flight-price-info {
+    text-align: center;
+    margin: 0px 20px;
+    display: flex;
+    gap: 35px;
+
+  }
+  
+  .flight-price-info h4 {
+    margin: 0;
+    color: #1e3c72;
+    font-size: 20px;
+  }
+  
+  .flight-view-prices {
+    padding: 8px 12px;
+    margin-top: 6px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .flight-all-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 135px;
+    margin-left: 6px;
+  }
+  .flight-time{
+    font-weight: bold;
+  }
+  .flight-price-per-person{
+    gap: 0px;
+
+  }
+  .flight-price-per-person p{
+    margin: 0;
+  }
+  .Draw-line{
+    height: 0px;
+    width: 100%;
+    border: 1px solid rgb(0, 255, 102);
+    margin: 5px 0px;
+  }

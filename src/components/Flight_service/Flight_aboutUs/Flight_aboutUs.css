@@ -1,0 +1,177 @@
+.about-us {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .about-us .container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-us h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #222;
+    font-weight: bold;
+  }
+  
+  .about-us p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .about-us h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #444;
+    border-bottom: 2px solid #007BFF;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .about-us ul {
+    list-style-type: none;
+    padding: 0;
+    color: #555;
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .about-us ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .about-us ul li::before {
+    content: "•";
+    color: #007BFF;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+    margin-left: -20px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  
+  .team-member {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .team-member img {
+    border-radius: 50%;
+    width: 134px;
+    height: 125px;
+    margin-bottom: 10px;
+    border: 3px solid #007BFF;
+  }
+  
+  .team-member h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0 5px;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .timeline {
+    margin-top: 40px;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .timeline-event {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-left: 3px solid #007BFF;
+    position: relative;
+  }
+  
+  .timeline-event h3 {
+    font-size: 1.2rem;
+    color: #007BFF;
+    margin-bottom: 5px;
+  }
+  
+  .timeline-event p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .testimonials {
+    margin-top: 40px;
+    font-style: italic;
+    color: #666;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .testimonials blockquote {
+    margin: 0 0 20px;
+    padding-left: 20px;
+    border-left: 3px solid #007BFF;
+    font-size: 1.2rem;
+  }
+  
+  .cta1 {
+    margin-top: 50px;
+    background-color: #aae3d5;
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cta1 h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .cta1 p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .explore-button {
+    background-color: white;
+    color: #007BFF;
+    padding: 12px 25px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .explore-button a{
+    text-decoration: none;
+    color: #1a1b1b;
+  }
+  
+  .explore-button:hover {
+    background-color: #007BFF;
+    color: white;
+  }
+  

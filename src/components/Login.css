@@ -1,0 +1,72 @@
+.login-body {
+  background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_640.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 80px;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7); /* Optional: add some transparency for contrast */
+}
+
+.login-container input {
+  width: 94%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 6px;
+}
+.login-container p{
+  margin: 9px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 4px 77px;
+}
+
+.checkbox-container label {
+  margin-left: 5px;
+}
+
+.btn2 {
+  margin-top: 15px;
+  font-size: 16px;
+  background-color: #555;
+}
+
+.register-link {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
