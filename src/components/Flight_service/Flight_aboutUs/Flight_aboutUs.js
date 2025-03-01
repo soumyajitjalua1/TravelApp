@@ -87,7 +87,7 @@ const Flight_aboutUs = () => {
 
         <h2>Social Responsibility</h2>
         <p>
-          At BookByBook, we believe in giving back to the community and protecting the environment. We support various
+          At BookMyTrip-, we believe in giving back to the community and protecting the environment. We support various
           initiatives aimed at sustainable tourism and community development.
         </p>
 

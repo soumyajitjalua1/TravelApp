@@ -37,7 +37,7 @@ const footer = () => {
         </div>
         <div className="footer-bottom">
           <p>Cheap flight & hotel booking from anywhere, to everywhere</p>
-          <p>© 2024 BookByBook 2023 – 2024</p>
+          <p>© 2024 BookMyTrip 2023 – 2024</p>
         </div>
     </footer>
     </div>

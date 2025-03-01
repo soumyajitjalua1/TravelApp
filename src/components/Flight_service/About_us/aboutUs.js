@@ -5,8 +5,8 @@ const aboutUs = () => {
   return (
     <div>
         <section className="about-us">
-            <h2>About BookByBook</h2>
-            <p>At BookByBook, we strive to make your travel experience seamless and memorable. </p>
+            <h2>About BookMyTrip</h2>
+            <p>At BookMyTrip, we strive to make your travel experience seamless and memorable. </p>
             <p>With over a decade of experience in the travel industry, we specialize in providing the best deals on hotels and flights worldwide.</p>
             <div className="video-container">
                 <video width="800" controls>
@@ -32,10 +32,10 @@ const aboutUs = () => {
             <div className="customer-testimonials">
                 <h3>What Our Customers Say</h3>
                 <blockquote>
-                "BookByBook made our trip unforgettable! Everything was easy, from booking to check-in." - Jane D.
+                "BookMyTrip made our trip unforgettable! Everything was easy, from booking to check-in." - Jane D.
                 </blockquote>
                 <blockquote>
-                "I always choose BookByBook for my business trips. They are reliable and efficient." - Does S.
+                "I always choose BookMyTrip for my business trips. They are reliable and efficient." - Does S.
                 </blockquote>
             </div>
             <div className='TotalGoal'>
@@ -53,7 +53,7 @@ const aboutUs = () => {
                 <div class="values-team">
                     <div class="values">
                         <h3>Our Values</h3>
-                        <p>At BookByBook, we value integrity, customer satisfaction, and innovation. We are dedicated to creating a positive impact on the travel industry.</p>
+                        <p>At BookMyTrip, we value integrity, customer satisfaction, and innovation. We are dedicated to creating a positive impact on the travel industry.</p>
                     </div>
                     <div class="team">
                         <h3>Our Team</h3>
@@ -76,7 +76,7 @@ const aboutUs = () => {
                 </div>
             </div>
             <div className="cta">
-                <p>Experience the best in travel with BookByBook.</p>
+                <p>Experience the best in travel with BookMyTrip.</p>
                 <p>Our journey starts here.</p>
                 <button className='cta-btn'>
                     <a href="/hotel" className="cta-link">Get Started</a>
